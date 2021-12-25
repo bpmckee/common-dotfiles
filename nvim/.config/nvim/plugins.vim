@@ -1,8 +1,7 @@
-" call source#VimPlug()
-
 " Note: You need to run :PlugInstall to actually install plugins.
 " I don't automatically do this for vim startup performance reasons.
 
+" Load Vim Plugs
 call plug#begin(stdpath('data') . '/plugged')
 
 call source#GlobIfExists('~/.config/nvim/plugins/**/*plug.vim')
